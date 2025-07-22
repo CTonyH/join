@@ -39,7 +39,7 @@
         <div class="priority-part">
           @if (nextDeadlineInfo.priority === 'Urgent') {
           <div [style.background]="'#ff0000'" class="priority-circle">
-            <img [src]="'/assets/images/main/' + nextDeadlineInfo.priority.toLowerCase() + '.svg'"
+            <img [src]="'/assets/images/main/' + nextDeadlineInfo.priority + '.svg'"
               alt="priority image Urgant" />
           </div>
           }
