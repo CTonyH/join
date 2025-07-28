@@ -74,6 +74,9 @@ a {
       width: 100%;
       padding: clamp(0.5rem, 2vw, 0.75rem) clamp(1rem, 4vw, 2rem);
       border-radius: 8px;
+      &:hover {
+        cursor: pointer;
+      }
 
       img {
         width: clamp(20px, 3vw, 25px);
